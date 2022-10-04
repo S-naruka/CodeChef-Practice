@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	  int a,b;
+	    cin>>a>>b;
+	
+        if(a<b)
+	        cout<<b;
+	
+        if(b<a)
+          cout<<a;
+	
+  return 0;
+}
